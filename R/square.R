@@ -18,4 +18,3 @@ square <- function(x) {
 
 document()
 load_all()
-squ

@@ -1,0 +1,21 @@
+---
+title: "Basic Tutorial"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{using_square}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package can take the square  of a single number, a vector of numbers, or a list of numbers. The main workhorse function is `square()`, and it is used as follows:
+
+```{r setup}
+library(square)
+```
